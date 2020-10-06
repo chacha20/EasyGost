@@ -219,13 +219,13 @@ function confstart()
 {
     echo "{
     \"Debug\": true,
-    \"Retries\": 0,
+    \"Retries\": 3,
     \"ServeNodes\": [" >> $gost_conf_path
 }
 function multiconfstart()
 {
     echo "        {
-            \"Retries\": 0,
+            \"Retries\": 3,
             \"ServeNodes\": [" >> $gost_conf_path
 }
 function conflast()
